@@ -10,3 +10,22 @@ compile_commands.json
 CTestTestfile.cmake
 _deps
 CMakeUserPresets.json
+
+# === Diagnostic and engine dumps ===
+_engine_*
+_engine_*.txt
+*.txt
+!README.md
+*.db
+*.db-shm
+*.db-wal
+*.log
+
+# === Python & build caches ===
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.venv/
+build_cache/
+release/
